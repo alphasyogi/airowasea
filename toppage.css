@@ -12,26 +12,26 @@ li{
     list-style: none;
 }
 .header{
-    background-color:rgb(19, 114, 117);
-    height:60px;
+    background-color:white;
 }
 .header-logo{
     float:left;
-    line-height:60px;
-    font-size:24px;
+    line-height:100px;
+    font-size:60px;
     padding-left:30px;
-    color:white;
+    color:black;
 }
 .header-list{
     display:inline-block;
     line-height:60px;
-    margin-left:300px;
+    margin-left:600px;
+    float:right;
 }
 .header-list a{
-    float:left;
+    
     padding-right:30px;
-    opacity: 0.5;
-    background-color:rgb(96, 213, 218) ;
+    opacity: 0.7;
+    background-color:white ;
     width:160px;
     text-align: center;
 }
@@ -39,12 +39,20 @@ li{
     opacity: 1.0;
 }
 .maincontainer{
-    color:blue;
+    clear:left;
+    padding-top:20px;
+    padding-left:30px;
+    color:black;
+    font-style: initial;
+    background-image: url(pic1.jpg);
     
 }
 .title{
-    font-size:50px;
+    font-size:40px;
+    width:430px;
+
 }
 .subtitle{
     font-size:15px;
 }
+
