@@ -5,12 +5,14 @@ form, input, div {
   margin: 0;
   padding: 0;
 }
+
 /*body{
     font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 } */
 li{
     list-style: none;
 }
+/*ここからヘッダーのCSS*/
 .header{
     background-color:white;
 }
@@ -43,19 +45,74 @@ li{
     padding-top:20px;
     padding-left:30px;
     color:rgba(0,0,0,1.0);
-    font-style: initial;
-    background-image: url(pic1.jpg);
+    background-image: url(pic3.jpg);
     background-size: cover;  
-    height:720px;
-    opacity:0. 4;
+    height: 858px;
+    background-color: rgba(255,255,255,0.4);
 }
 .title{
     font-size:40px;
     width:430px;
-    font-style: italic;
-
+    margin-top: 50px;
+    font-family: Comic sans-serif;    
+    background-color: rgba(255,255,255,0.4);
 }
 .subtitle{
     font-size:15px;
+    width:430px;
+    background-color: rgba(255,255,255,0.4);
+    
 }
 
+.contents_container{
+    height:220px;
+    padding-top:30px;
+    overflow: hidden;
+}
+.contents_container h1{
+    font-size:40px;
+    padding-left:20px;
+}
+.contents_container h2{
+    font-size:20px;
+    float:right;
+    width:700px;
+}
+.each_box{
+    width:90%;
+    text-align: center;
+    margin:0 auto;
+}
+.our_business{
+    background-color:blue;
+}
+.contact{
+    background-color: aqua;
+}
+.login{
+    background-color: brown;
+}
+.child{
+    float:left;
+    width:33%;
+    height:300px;
+}
+.footer{
+    padding-top:300px;
+}
+.footer-logo{
+    font-size:25px;
+    padding-left: 15px;
+    border-top: 3px solid rgba(168, 163, 163, 0.4);
+}
+.footer-list li{
+    float:right;
+    font-size:20px;
+    line-height:60px;
+    padding-left: 30px;
+    padding-right:20px;
+    opacity:0.7;
+}
+.footer-list li:hover{
+    opacity:1.0;
+}
